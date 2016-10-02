@@ -1,4 +1,156 @@
-#header{
+@-webkit-keyframes fade-in{
+from{
+    color: white;
+}
+to{
+    color: black
+}
+}
+@-webkit-keyframes name-fade{
+  from{
+    opacity:white;
+  }
+  to{
+    color:black;
+  }
+}
+body{
   font-family: sans-serif;
-  border-bottom: 2px;
+  color: white;
+  background-color: black;
+}
+.button{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 20px;
+  height: 10px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+.button-div{
+  width: 100%;
+  text-align: center;
+  padding-top: 30%
+}
+.text-one{
+  font-size: 20px;
+  margin-top: 15%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.text-two{
+  margin-top: 20%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.text-three{
+  margin-top: 18%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.name-div{
+  width:120px;
+  font-size: 20px;
+  margin-top: 1%;
+  margin-left: 2%;
+  position: absolute;
+  text-align: left;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.text-animated-one{
+  color: black;
+  -webkit-animation-name:fade-in;
+  -webkit-animation-duration:2.5s;
+  -webkit-animation-delay:1s;
+}
+.text-animated-three{
+  color: black;
+  -webkit-animation-name:fade-in;
+  -webkit-animation-duration:2.5s;
+}
+.text-animated-two{
+  color: black;
+  -webkit-animation-name:fade-in;
+  -webkit-animation-duration:2.5s;
+  -webkit-animation-delay:1.5s;
+}
+#name-text{
+  padding-left: 5px;
+  font-family: 'Great Vibes';
+}
+.trash{
+  font-family:'Great Vibes';
+}
+.aggettivi{
+  display:inline;
+  width:100px;
+  height:100px;
+}
+/*****PROJECT PAGE*******/
+.projects-title{
+  width: 80%;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Great Vibes';
+  background-color: white;
+  color: black;
+  margin-left: 10%;
+}
+.projects-text{
+  padding-top: 10px;
+}
+.item{
+  width:100px;
+  height:100px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 46%;
+  margin-top: 5%;
+}
+.item-text{
+  color:black;
+  text-align: center;
+  padding-top: 30px;
+}
+.item-description{
+  width:300px;
+  text-align: center;
+  margin-left: 38%;
+}
+.item-link{
+  margin-left: 48%;
+  color: white;
+  font-weight: bolder;
+}
+/*******ABOUT*******/
+.pic{
+  position: absolute;
+  width:200px;
+  height: 200px;
+  border-radius: 20px;
+  border: solid 3px white;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.description{
+  position: absolute;
+  width: 600px;
+  margin-top: 5%;
+  margin-left: 30%;
+  border: solid 3px white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.name{
+  font-size: 30px;
+  font-family: 'Great Vibes';
 }
